@@ -1,0 +1,43 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+
+    <body>
+        <nav class="nav maincolor py-3 tworem fixed-top">
+            <div class="container  d-flex justify-content-between">
+                <a class="nav-link text-white">SAMRT LOGIN</a>
+                <a class="nav-link text-secondary logout rounded ">logout</a>
+            </div>
+        </nav>
+
+        <div class="content w-50 maincolor">
+            <div class="container flex-column d-flex justify-content-center align-items-center p-5 text-white">
+                <h1 class="second my-3">Smart Login System</h1>
+                <form action="" class="w-100">
+                    <input id="name" type="text" name="name" placeholder="your name please"
+                        class="form-control text-white my-3 py-2">
+                    <input id="em" type="email" name="email" placeholder="your email please"
+                        class="form-control text-white my-3 py-2">
+                    <input id="pass" type="password" name="password" placeholder="your password please"
+                        class="form-control text-white my-3 py-2">
+
+                    <p id="p" class="text-danger text-center ">All inputes are Required</p>
+                    <input id="send" type="submit" value="Sign Up"
+                        class="form-control my-4 ddd fs-5 second border-se py-2">
+                </form>
+                <p>You have an account?</p>
+                <a id="in" class="ddd text-capitalize fs-5" href="">signin</a>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+
+</html>
